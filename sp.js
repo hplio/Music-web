@@ -118,8 +118,8 @@ document.getElementById('pause').addEventListener('click', () => {
 })
 
 document.getElementById('forward').addEventListener('click',()=>{
-    if (songIndex>9) {
-        songIndex=9; 
+    if (songIndex>10) {
+        songIndex=10; 
         console.error('this is limit')      
     }
     else{
@@ -139,7 +139,6 @@ document.getElementById('forward').addEventListener('click',()=>{
         masterPlay.hidden=false
         song.pause()
     })
-
-
 })
+
 
