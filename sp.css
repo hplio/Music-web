@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Varela+Round&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    background-color: black;
+    color: white;
+    align-items: center;
+
+}
+
+body {
+    /* background-color: #DFCCFB; */
+    background-color: #64CCC5;
+    
+}
+
+
+.logo img {
+    margin: 0px;
+    margin-right: 5px;
+    width: 40px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+nav ul li {
+    padding: 0px 12px;
+    font-size: small;
+}
+
+.contener {
+    /* min-height: 77.1vh; */
+    min-height: 70vh;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    background-color: #64CCC5;
+    color: black;
+    margin: 18px auto;
+    padding: 10px;
+    width: 70%;
+    border-radius: 12px;
+    justify-content: center;
+
+    /* background-image: url('images/bg.jpg'); */
+}
+
+.botttm {
+    position: sticky;
+    /* background-color: #CCC8AA; */
+    background-color: #80B3FF;
+    color: white;
+    height: 130px;
+    bottom: 0px;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#controler {
+    margin-top: 5px;
+    width: 85vw;
+    cursor: pointer;
+}
+
+#play {
+    height: 27px;
+    width: 27px;
+    margin-left: 2px;
+    cursor: pointer;
+}
+#pause {
+    height: 27px;
+    width: 27px;
+    margin-left: 2px;
+    cursor: pointer;
+}
+
+.pubtn{
+    height: 27px;
+    width: 27px;
+    margin-left: 2px;
+    cursor: pointer;
+}
+
+#forward {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+#backward {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.icons {
+    margin-top: 2px;
+}
+
+.songItems {
+    margin: 20px 2px;
+    background-color: white;
+    display: flex;
+    /* width: 80%; */
+    border-radius: 10px;
+    justify-content: space-between;
+ align-items: center;
+
+}
+
+.songtext{
+    margin: 15px 20px 8px 20px;
+}
+
+.timestaps{
+    margin:15px 30px 8px auto ;
+    margin-top: 15px;
+    margin-right: 30px;
+
+}
+
+.songItems img {
+    margin: 10px;
+    width: 30px;
+}
+
+.songlistplay{
+    margin-top: 5px;
+
+}
+
+
+.hello {
+    
+    height: 22px;
+    width: 22px;
+    cursor: pointer;
+}
+
+a:link, a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+
